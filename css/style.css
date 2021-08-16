@@ -1,0 +1,28 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color: white;
+    animation: header 2s ease-in-out;
+}
+@keyframes header{
+    0%{
+        transform: translateY(-100%);
+    }
+}
+nav li{
+    margin: 10px 20px;
+    display:inline-block;
+}
+
+nav li a{
+    text-decoration: none;
+}
